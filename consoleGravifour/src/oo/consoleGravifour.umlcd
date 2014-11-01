@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_afDF8F7rEeSaSYlLBoEnyA">
+  <modelElement href="consoleGravifour.uml#_cj7HwF7rEeSaSYlLBoEnyA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dnUecF7rEeSaSYlLBoEnyA" source="_dnWToF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_c88EsF7rEeSaSYlLBoEnyA"/>
+    <stereotypes xmi:id="_dnUecV7rEeSaSYlLBoEnyA" name="Reference">
+      <modelElement href="consoleGravifour.uml#_c9CLUF7rEeSaSYlLBoEnyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dnVFgF7rEeSaSYlLBoEnyA" text=""/>
+    <sourceRole xmi:id="_dnVFgV7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="">
+      <modelElement href="consoleGravifour.uml#_c88EsV7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dnVFgl7rEeSaSYlLBoEnyA" label="+"/>
+      <cardinality xmi:id="_dnVFg17rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dnVFhF7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="scanner" navigable="true">
+      <modelElement href="consoleGravifour.uml#_c4vhMF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dnVFhV7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dnVFhl7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dquXwF7rEeSaSYlLBoEnyA" sourceAnchor="128.0,0.0" targetAnchor="0.0,52.0" target="_dq9BQF7rEeSaSYlLBoEnyA" source="_dqWkUF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_c8kRQF7rEeSaSYlLBoEnyA"/>
+    <bendpoints xmi:id="_eGGFIF7rEeSaSYlLBoEnyA" sourceY="-107" targetX="-206"/>
+    <nameVisual xmi:id="_dqyCIV7rEeSaSYlLBoEnyA" text="">
+      <visualProperties xmi:id="_eGJvgF7rEeSaSYlLBoEnyA" position="-5.202815461665892,-0.011084915255537453"/>
+    </nameVisual>
+    <sourceRole xmi:id="_dqypMF7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="symbol" navigable="true">
+      <modelElement href="consoleGravifour.uml#_c5S60F7rEeSaSYlLBoEnyA"/>
+      <visualProperties xmi:id="_eGIhYF7rEeSaSYlLBoEnyA" position="-37.27107890612362,-64.09465628177043"/>
+      <visibility xmi:id="_dq3hsV7rEeSaSYlLBoEnyA" label="~"/>
+      <cardinality xmi:id="_dq3hsF7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dqzQQF7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="">
+      <modelElement href="consoleGravifour.uml#_c8k4UF7rEeSaSYlLBoEnyA"/>
+      <visualProperties xmi:id="_eGKWkF7rEeSaSYlLBoEnyA" position="-219.60503861834806,-74.62998931485618"/>
+      <visibility xmi:id="_dq4IwV7rEeSaSYlLBoEnyA" label="+"/>
+      <cardinality xmi:id="_dq4IwF7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dqyCIF7rEeSaSYlLBoEnyA" sourceAnchor="144.0,0.0" targetAnchor="145.0,104.0" superClass="_dq9BQF7rEeSaSYlLBoEnyA" subClass="_dnWToF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_c1y64F7rEeSaSYlLBoEnyA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dq7MEF7rEeSaSYlLBoEnyA" source="_dq9BQF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_c9SqAF7rEeSaSYlLBoEnyA"/>
+    <stereotypes xmi:id="_dq7zIF7rEeSaSYlLBoEnyA" name="Reference">
+      <modelElement href="consoleGravifour.uml#_c9ZXsF7rEeSaSYlLBoEnyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dq7zIV7rEeSaSYlLBoEnyA" text=""/>
+    <sourceRole xmi:id="_dq7zIl7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="">
+      <modelElement href="consoleGravifour.uml#_c9SqAV7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dq7zI17rEeSaSYlLBoEnyA" label="+"/>
+      <cardinality xmi:id="_dq7zJF7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dq7zJV7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="field" navigable="true">
+      <modelElement href="consoleGravifour.uml#_c5UwAF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dq7zJl7rEeSaSYlLBoEnyA" label="~"/>
+      <cardinality xmi:id="_dq7zJ17rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dr6qkF7rEeSaSYlLBoEnyA" sourceAnchor="298.0,0.0" targetAnchor="0.0,22.0" target="_dq9BQF7rEeSaSYlLBoEnyA" source="_dshHgF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_c9DZcF7rEeSaSYlLBoEnyA"/>
+    <bendpoints xmi:id="_eGHTQF7rEeSaSYlLBoEnyA" sourceY="-428" targetX="-377"/>
+    <stereotypes xmi:id="_dsDNcF7rEeSaSYlLBoEnyA" name="Reference">
+      <modelElement href="consoleGravifour.uml#_c9KHIF7rEeSaSYlLBoEnyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dsB_UF7rEeSaSYlLBoEnyA" text="">
+      <visualProperties xmi:id="_eGMLwF7rEeSaSYlLBoEnyA" position="-14.382483895585949,367.1912194210055"/>
+    </nameVisual>
+    <sourceRole xmi:id="_dsB_UV7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="">
+      <modelElement href="consoleGravifour.uml#_c9DZcV7rEeSaSYlLBoEnyA"/>
+      <visualProperties xmi:id="_eGK9oF7rEeSaSYlLBoEnyA" position="2.1826253012711163,-70.88029233060786"/>
+      <visibility xmi:id="_dsWvcF7rEeSaSYlLBoEnyA" label="+"/>
+      <cardinality xmi:id="_dsWIYF7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dsCmYF7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="players" navigable="true">
+      <modelElement href="consoleGravifour.uml#_c42O4F7rEeSaSYlLBoEnyA"/>
+      <visualProperties xmi:id="_eGOoAF7rEeSaSYlLBoEnyA" position="-399.0717971055962,339.08669095987426"/>
+      <visibility xmi:id="_dsXWgF7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dsWvcV7rEeSaSYlLBoEnyA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dr9G0F7rEeSaSYlLBoEnyA" sourceAnchor="0.0,192.0" targetAnchor="214.0,164.0" target="_dpr18F7rEeSaSYlLBoEnyA" source="_dshHgF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_c9KuMF7rEeSaSYlLBoEnyA"/>
+    <bendpoints xmi:id="_eGH6UF7rEeSaSYlLBoEnyA" sourceX="-276" targetY="247"/>
+    <stereotypes xmi:id="_dsEbkF7rEeSaSYlLBoEnyA" name="Reference">
+      <modelElement href="consoleGravifour.uml#_c9Rb4F7rEeSaSYlLBoEnyA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dsDNcV7rEeSaSYlLBoEnyA" text="">
+      <visualProperties xmi:id="_eGREQF7rEeSaSYlLBoEnyA" position="221.14027225874167,-18.18208298907109"/>
+    </nameVisual>
+    <sourceRole xmi:id="_dsD0gF7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="">
+      <modelElement href="consoleGravifour.uml#_c9KuMV7rEeSaSYlLBoEnyA"/>
+      <visualProperties xmi:id="_eGQdMF7rEeSaSYlLBoEnyA" position="-56.38892784541815,-35.80931429470132"/>
+      <visibility xmi:id="_dsYkoF7rEeSaSYlLBoEnyA" label="+"/>
+      <cardinality xmi:id="_dsX9kV7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dsD0gV7rEeSaSYlLBoEnyA" aggregationKind="NONE" name="field" navigable="true">
+      <modelElement href="consoleGravifour.uml#_c47ucF7rEeSaSYlLBoEnyA"/>
+      <visualProperties xmi:id="_eGRrUF7rEeSaSYlLBoEnyA" position="223.82040988691085,211.15402666382477"/>
+      <visibility xmi:id="_dsZLsF7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dsYkoV7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_dsAxMF7rEeSaSYlLBoEnyA" targetItem="_dshHgF7rEeSaSYlLBoEnyA" sourceItem="_dr_jEF7rEeSaSYlLBoEnyA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_w6ZRoF7rEeSaSYlLBoEnyA" superClass="_dq9BQF7rEeSaSYlLBoEnyA" subClass="_dqqGUF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_w6TLAF7rEeSaSYlLBoEnyA"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_dr_jEF7rEeSaSYlLBoEnyA" sourceConnectionVisual="_dsAxMF7rEeSaSYlLBoEnyA" text="@author Aleksejs Truhans Aleksejs.Truhans@gmail.com" item="_dshHgF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_c8fYwF7rEeSaSYlLBoEnyA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dnWToF7rEeSaSYlLBoEnyA" name="HumanConsolePlayer" associationsOut="_dnUecF7rEeSaSYlLBoEnyA" generalizations="_dqyCIF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_co2rEF7rEeSaSYlLBoEnyA"/>
+    <visualProperties xmi:id="_dnWToV7rEeSaSYlLBoEnyA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dnWTol7rEeSaSYlLBoEnyA" label="+"/>
+    <attributes xmi:id="_dnWTo17rEeSaSYlLBoEnyA" defaultValue="new Scanner(System.in)" name="scanner">
+      <modelElement href="consoleGravifour.uml#_c4vhMF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dnWTpF7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c4x9cF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dnWTpV7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c4x9cF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dnWTpl7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dnWTp17rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+      <type xmi:id="_dnW6sF7rEeSaSYlLBoEnyA" name="Scanner">
+        <modelElement href="consoleGravifour.uml#_c1NsEF7rEeSaSYlLBoEnyA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dnW6sV7rEeSaSYlLBoEnyA" name="getMove">
+      <modelElement href="consoleGravifour.uml#_co7jkF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dnW6sl7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_co-m4F7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dnW6s17rEeSaSYlLBoEnyA" name="Annotations">
+        <modelElement href="consoleGravifour.uml#_cpC4UF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dnW6tF7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dnW6tV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_co9YwF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dnW6tl7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dnW6t17rEeSaSYlLBoEnyA" name="printField">
+      <modelElement href="consoleGravifour.uml#_cpI-8F7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dnW6uF7rEeSaSYlLBoEnyA" label="-"/>
+    </operations>
+    <operations xmi:id="_dnW6uV7rEeSaSYlLBoEnyA" name="inputValidMove">
+      <modelElement href="consoleGravifour.uml#_cpMpUF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dnW6ul7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dnW6u17rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_cpNQYF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dnW6vF7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dnW6vV7rEeSaSYlLBoEnyA" name="announceWinner">
+      <modelElement href="consoleGravifour.uml#_c1kRYF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dnW6vl7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c1nUsF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dnW6v17rEeSaSYlLBoEnyA" name="Annotations">
+        <modelElement href="consoleGravifour.uml#_c1xFsF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dnW6wF7rEeSaSYlLBoEnyA" label="+"/>
+      <parameters xmi:id="_dnW6wV7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c1kRYV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dnW6wl7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dpr18F7rEeSaSYlLBoEnyA" name="Field" associationsIn="_dr9G0F7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_crSUAF7rEeSaSYlLBoEnyA"/>
+    <visualProperties xmi:id="_dpr18V7rEeSaSYlLBoEnyA" position="-1136.0,-21.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dpsdAF7rEeSaSYlLBoEnyA" label="+"/>
+    <attributes xmi:id="_dpsdAV7rEeSaSYlLBoEnyA" name="field">
+      <modelElement href="consoleGravifour.uml#_c5ZBcF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dpsdAl7rEeSaSYlLBoEnyA" name="Array">
+        <modelElement href="consoleGravifour.uml#_c5aPkF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dpsdA17rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c5cEwF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dpsdBF7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dpsdBV7rEeSaSYlLBoEnyA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_dpsdBl7rEeSaSYlLBoEnyA" name="Symbol">
+        <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dpsdB17rEeSaSYlLBoEnyA" name="getView">
+      <modelElement href="consoleGravifour.uml#_croSQF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dpsdCF7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dpsdCV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c3sYUF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdCl7rEeSaSYlLBoEnyA" name="View">
+          <modelElement href="consoleGravifour.uml#_crXzkF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dpsdC17rEeSaSYlLBoEnyA" name="Field">
+      <modelElement href="consoleGravifour.uml#_crtx0F7rEeSaSYlLBoEnyA"/>
+      <keywords xmi:id="_dpsdDF7rEeSaSYlLBoEnyA" keyword="create"/>
+      <visibility xmi:id="_dpsdDV7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dpsdDl7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_crwOEF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdD17rEeSaSYlLBoEnyA" name="Field">
+          <modelElement href="consoleGravifour.uml#_crSUAF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dpsdEF7rEeSaSYlLBoEnyA" name="columns">
+        <modelElement href="consoleGravifour.uml#_cruY4F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdEV7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dpsdEl7rEeSaSYlLBoEnyA" name="rows">
+        <modelElement href="consoleGravifour.uml#_cruY4V7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdE17rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dpsdFF7rEeSaSYlLBoEnyA" name="getCell">
+      <modelElement href="consoleGravifour.uml#_crz4cF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dpsdFV7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dpsdFl7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c3s_YF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdF17rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dpsdGF7rEeSaSYlLBoEnyA" name="column">
+        <modelElement href="consoleGravifour.uml#_cr0fgF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdGV7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dpsdGl7rEeSaSYlLBoEnyA" name="row">
+        <modelElement href="consoleGravifour.uml#_cr1toF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdG17rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dpsdHF7rEeSaSYlLBoEnyA" name="initialize">
+      <modelElement href="consoleGravifour.uml#_cr70QF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dpsdHV7rEeSaSYlLBoEnyA" label="+"/>
+    </operations>
+    <operations xmi:id="_dpsdHl7rEeSaSYlLBoEnyA" name="dropIntoColumn">
+      <modelElement href="consoleGravifour.uml#_c3uNgF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dpsdH17rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dpsdIF7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c3wCsF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdIV7rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dpsdIl7rEeSaSYlLBoEnyA" name="column">
+        <modelElement href="consoleGravifour.uml#_c3u0kF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdI17rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dpsdJF7rEeSaSYlLBoEnyA" name="value">
+        <modelElement href="consoleGravifour.uml#_c3u0kV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dpsdJV7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dqGFoF7rEeSaSYlLBoEnyA" name="View">
+    <modelElement href="consoleGravifour.uml#_crXzkF7rEeSaSYlLBoEnyA"/>
+    <visualProperties xmi:id="_dqGFoV7rEeSaSYlLBoEnyA" position="18.0,237.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dqGFol7rEeSaSYlLBoEnyA" label="+"/>
+    <operations xmi:id="_dqGFo17rEeSaSYlLBoEnyA" name="getColumns">
+      <modelElement href="consoleGravifour.uml#_crZowF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dqGssF7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dqGssV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_cra24F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dqGssl7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dqGss17rEeSaSYlLBoEnyA" name="getRows">
+      <modelElement href="consoleGravifour.uml#_crcsEF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dqGstF7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dqGstV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_crd6MF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dqGstl7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dqGst17rEeSaSYlLBoEnyA" name="getCell">
+      <modelElement href="consoleGravifour.uml#_crg9gF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dqGsuF7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dqGsuV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c3pVAF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dqGsul7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dqGsu17rEeSaSYlLBoEnyA" name="column">
+        <modelElement href="consoleGravifour.uml#_crg9gV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dqGsvF7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dqGsvV7rEeSaSYlLBoEnyA" name="row">
+        <modelElement href="consoleGravifour.uml#_crhkkF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dqGsvl7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_dqWkUF7rEeSaSYlLBoEnyA" name="Symbol" associationsOut="_dquXwF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+    <visualProperties xmi:id="_dqWkUV7rEeSaSYlLBoEnyA" position="-305.0,-93.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dqWkUl7rEeSaSYlLBoEnyA" label="~"/>
+    <attributes xmi:id="_dqWkU17rEeSaSYlLBoEnyA" name="charr">
+      <modelElement href="consoleGravifour.uml#_c5nq8F7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dqWkVF7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c5pgIF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dqWkVV7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dqWkVl7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+      <type xmi:id="_dqWkV17rEeSaSYlLBoEnyA" name="char">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dqWkWF7rEeSaSYlLBoEnyA" name="Symbol">
+      <modelElement href="consoleGravifour.uml#_csa8cF7rEeSaSYlLBoEnyA"/>
+      <keywords xmi:id="_dqWkWV7rEeSaSYlLBoEnyA" keyword="create"/>
+      <visibility xmi:id="_dqWkWl7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dqWkW17rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_cscKkl7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dqWkXF7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dqWkXV7rEeSaSYlLBoEnyA" name="charr">
+        <modelElement href="consoleGravifour.uml#_csa8cV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dqWkXl7rEeSaSYlLBoEnyA" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dqWkX17rEeSaSYlLBoEnyA" name="toChar">
+      <modelElement href="consoleGravifour.uml#_csdYsF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dqWkYF7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dqWkYV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_csem0F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dqXLYF7rEeSaSYlLBoEnyA" name="char">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_dqXLYV7rEeSaSYlLBoEnyA" name="X">
+      <modelElement href="consoleGravifour.uml#_csRLcF7rEeSaSYlLBoEnyA"/>
+    </literals>
+    <literals xmi:id="_dqXLYl7rEeSaSYlLBoEnyA" name="O">
+      <modelElement href="consoleGravifour.uml#_csSZkF7rEeSaSYlLBoEnyA"/>
+    </literals>
+    <literals xmi:id="_dqXLY17rEeSaSYlLBoEnyA" name="EMPTY">
+      <modelElement href="consoleGravifour.uml#_csTAoV7rEeSaSYlLBoEnyA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dqqGUF7rEeSaSYlLBoEnyA" name="RandomComputerPlayer" generalizations="_w6ZRoF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_coamMF7rEeSaSYlLBoEnyA"/>
+    <visualProperties xmi:id="_dqqGUV7rEeSaSYlLBoEnyA" position="423.0,-58.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dqqGUl7rEeSaSYlLBoEnyA" label="+"/>
+    <operations xmi:id="_yGa_4F7rEeSaSYlLBoEnyA" name="getMove">
+      <modelElement href="consoleGravifour.uml#_yGLIQF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_yGa_4V7rEeSaSYlLBoEnyA" name="Annotations">
+        <modelElement href="consoleGravifour.uml#_yGMWYF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yGa_4l7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_yGRO4F7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_yGa_417rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_yGa_5F7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_yGTrIF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_yGa_5V7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yGfRUF7rEeSaSYlLBoEnyA" name="announceWinner">
+      <modelElement href="consoleGravifour.uml#_yGM9cV7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_yGfRUV7rEeSaSYlLBoEnyA" name="Annotations">
+        <modelElement href="consoleGravifour.uml#_yGOyoF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yGfRUl7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_yGR18F7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_yGfRU17rEeSaSYlLBoEnyA" label="+"/>
+      <parameters xmi:id="_yGfRVF7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_yGNkgF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_yGfRVV7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dq9BQF7rEeSaSYlLBoEnyA" name="Player" abstractClass="true" associationsIn="_dquXwF7rEeSaSYlLBoEnyA _dr6qkF7rEeSaSYlLBoEnyA" associationsOut="_dq7MEF7rEeSaSYlLBoEnyA" subclassedBy="_dqyCIF7rEeSaSYlLBoEnyA _w6ZRoF7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_crB1UF7rEeSaSYlLBoEnyA"/>
+    <visualProperties xmi:id="_dq9BQV7rEeSaSYlLBoEnyA" position="29.0,-252.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dq9BQl7rEeSaSYlLBoEnyA" label="+"/>
+    <attributes xmi:id="_dq9BQ17rEeSaSYlLBoEnyA" name="symbol">
+      <modelElement href="consoleGravifour.uml#_c5S60F7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dq9BRF7rEeSaSYlLBoEnyA" label="~"/>
+      <cardinality xmi:id="_dq9BRV7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+      <type xmi:id="_dq9BRl7rEeSaSYlLBoEnyA" name="Symbol">
+        <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dq9BR17rEeSaSYlLBoEnyA" name="field">
+      <modelElement href="consoleGravifour.uml#_c5UwAF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dq9BSF7rEeSaSYlLBoEnyA" label="~"/>
+      <cardinality xmi:id="_dq9BSV7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+      <type xmi:id="_dq9BSl7rEeSaSYlLBoEnyA" name="View">
+        <modelElement href="consoleGravifour.uml#_c3b5oF7rEeSaSYlLBoEnyA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dq9BS17rEeSaSYlLBoEnyA" abstractOperation="true" name="getMove">
+      <modelElement href="consoleGravifour.uml#_crGGwF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dq9BTF7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dq9BTV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_crHU4F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dq9BTl7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dq9BT17rEeSaSYlLBoEnyA" abstractOperation="true" name="announceWinner">
+      <modelElement href="consoleGravifour.uml#_c3jOYF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dq9BUF7rEeSaSYlLBoEnyA" label="+"/>
+      <parameters xmi:id="_dq9BUV7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c3j1cF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dq9BUl7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dshHgF7rEeSaSYlLBoEnyA" comments="_dr_jEF7rEeSaSYlLBoEnyA" targetConnectionVisual="_dsAxMF7rEeSaSYlLBoEnyA" name="Game" associationsOut="_dr6qkF7rEeSaSYlLBoEnyA _dr9G0F7rEeSaSYlLBoEnyA">
+    <modelElement href="consoleGravifour.uml#_cpcg8F7rEeSaSYlLBoEnyA"/>
+    <visualProperties xmi:id="_dshHgV7rEeSaSYlLBoEnyA" position="-646.0,198.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dshHgl7rEeSaSYlLBoEnyA" label="+"/>
+    <attributes xmi:id="_dshHg17rEeSaSYlLBoEnyA" defaultValue="new Player[2]" name="players">
+      <modelElement href="consoleGravifour.uml#_c42O4F7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dshHhF7rEeSaSYlLBoEnyA" name="Array">
+        <modelElement href="consoleGravifour.uml#_c44EEF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dshHhV7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c455QF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dsXWgV7rEeSaSYlLBoEnyA" name="Array">
+        <modelElement href="consoleGravifour.uml#_c44EEF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dsX9kF7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c455QF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dshHhl7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dshHh17rEeSaSYlLBoEnyA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_dshHiF7rEeSaSYlLBoEnyA" name="Player">
+        <modelElement href="consoleGravifour.uml#_crB1UF7rEeSaSYlLBoEnyA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dshHiV7rEeSaSYlLBoEnyA" name="field">
+      <modelElement href="consoleGravifour.uml#_c47ucF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dshHil7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c49joF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dsZywF7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c49joF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dshHi17rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dshHjF7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+      <type xmi:id="_dshHjV7rEeSaSYlLBoEnyA" name="Field">
+        <modelElement href="consoleGravifour.uml#_crSUAF7rEeSaSYlLBoEnyA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dshHjl7rEeSaSYlLBoEnyA" name="columns">
+      <modelElement href="consoleGravifour.uml#_c4-xwF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dshHj17rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c5BOAF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dshHkF7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dshHkV7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+      <type xmi:id="_dshHkl7rEeSaSYlLBoEnyA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dshHk17rEeSaSYlLBoEnyA" name="rows">
+      <modelElement href="consoleGravifour.uml#_c5B1EF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dshHlF7rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c5DqQF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dshHlV7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dshHll7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+      <type xmi:id="_dshHl17rEeSaSYlLBoEnyA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dshHmF7rEeSaSYlLBoEnyA" defaultValue="4" name="TO_WIN" staticAttribute="true">
+      <modelElement href="consoleGravifour.uml#_c5ERUF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dshHmV7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dshHml7rEeSaSYlLBoEnyA" label="1" max="1" min="1"/>
+      <type xmi:id="_dshHm17rEeSaSYlLBoEnyA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dshHnF7rEeSaSYlLBoEnyA" defaultValue="{ X, O }" name="PLAYER_SYMBOLS" staticAttribute="true">
+      <modelElement href="consoleGravifour.uml#_c5GGgF7rEeSaSYlLBoEnyA"/>
+      <stereotypes xmi:id="_dshHnV7rEeSaSYlLBoEnyA" name="Array">
+        <modelElement href="consoleGravifour.uml#_c5HUoF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dshHnl7rEeSaSYlLBoEnyA" label="-"/>
+      <cardinality xmi:id="_dshHn17rEeSaSYlLBoEnyA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_dshHoF7rEeSaSYlLBoEnyA" name="Symbol">
+        <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dshHoV7rEeSaSYlLBoEnyA" name="run">
+      <modelElement href="consoleGravifour.uml#_cpoHIF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dshukF7rEeSaSYlLBoEnyA" label="+"/>
+    </operations>
+    <operations xmi:id="_dshukV7rEeSaSYlLBoEnyA" name="makeValidMove">
+      <modelElement href="consoleGravifour.uml#_cpqjYF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dshukl7rEeSaSYlLBoEnyA" label="-"/>
+      <parameters xmi:id="_dshuk17rEeSaSYlLBoEnyA" name="currentPlayer">
+        <modelElement href="consoleGravifour.uml#_cprKcF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshulF7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dshulV7rEeSaSYlLBoEnyA" name="Game">
+      <modelElement href="consoleGravifour.uml#_c2ISEF7rEeSaSYlLBoEnyA"/>
+      <keywords xmi:id="_dshull7rEeSaSYlLBoEnyA" keyword="create"/>
+      <stereotypes xmi:id="_dshul17rEeSaSYlLBoEnyA" name="LegacyStyledElement">
+        <modelElement href="consoleGravifour.uml#_c2O_wF7rEeSaSYlLBoEnyA"/>
+      </stereotypes>
+      <visibility xmi:id="_dshumF7rEeSaSYlLBoEnyA" label="+"/>
+      <outParameters xmi:id="_dshumV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c2Pm0F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshuml7rEeSaSYlLBoEnyA" name="Game">
+          <modelElement href="consoleGravifour.uml#_cpcg8F7rEeSaSYlLBoEnyA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dshum17rEeSaSYlLBoEnyA" name="columns">
+        <modelElement href="consoleGravifour.uml#_c2ISEV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshunF7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dshunV7rEeSaSYlLBoEnyA" name="rows">
+        <modelElement href="consoleGravifour.uml#_c2I5IF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshunl7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dshun17rEeSaSYlLBoEnyA" name="players">
+        <modelElement href="consoleGravifour.uml#_c2I5IV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshuoF7rEeSaSYlLBoEnyA" name="Player">
+          <modelElement href="consoleGravifour.uml#_crB1UF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dshuoV7rEeSaSYlLBoEnyA" name="isWon">
+      <modelElement href="consoleGravifour.uml#_c2Z-4F7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dshuol7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dshuo17rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c2gFgF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshupF7rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dshupV7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c2al8F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshupl7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dshup17rEeSaSYlLBoEnyA" name="isWonDiagonal">
+      <modelElement href="consoleGravifour.uml#_c2h6sF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dshuqF7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dshuqV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c2qdkF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshuql7rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dshuq17rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c2ihwF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshurF7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dshurV7rEeSaSYlLBoEnyA" name="isWonLeftDiagonal">
+      <modelElement href="consoleGravifour.uml#_c2sSwF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dshurl7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dshur17rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c2tg4F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshusF7rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dshusV7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c2s50F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshusl7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dshus17rEeSaSYlLBoEnyA" name="isWonInLeftDiagonalAt">
+      <modelElement href="consoleGravifour.uml#_c2xLQF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dshutF7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dshutV7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c2zAcF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshutl7rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dshut17rEeSaSYlLBoEnyA" name="startX">
+        <modelElement href="consoleGravifour.uml#_c2xyUF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshuuF7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dshuuV7rEeSaSYlLBoEnyA" name="startY">
+        <modelElement href="consoleGravifour.uml#_c2xyUV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dshuul7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dsiVoF7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c2yZYF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVoV7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dsiVol7rEeSaSYlLBoEnyA" name="isWonRightDiagonal">
+      <modelElement href="consoleGravifour.uml#_c21csF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dsiVo17rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dsiVpF7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c22q0F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVpV7rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dsiVpl7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c22DwF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVp17rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dsiVqF7rEeSaSYlLBoEnyA" name="isWonInRightDiagonalAt">
+      <modelElement href="consoleGravifour.uml#_c25HEF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dsiVqV7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dsiVql7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c268QF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVq17rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dsiVrF7rEeSaSYlLBoEnyA" name="startX">
+        <modelElement href="consoleGravifour.uml#_c25HEV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVrV7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dsiVrl7rEeSaSYlLBoEnyA" name="startY">
+        <modelElement href="consoleGravifour.uml#_c25uIF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVr17rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dsiVsF7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c25uIV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVsV7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dsiVsl7rEeSaSYlLBoEnyA" name="isWonVertical">
+      <modelElement href="consoleGravifour.uml#_c28xcF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dsiVs17rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dsiVtF7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c29_kF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVtV7rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dsiVtl7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c29YgF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVt17rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dsiVuF7rEeSaSYlLBoEnyA" name="isWonInColumn">
+      <modelElement href="consoleGravifour.uml#_c3Ab0F7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dsiVuV7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dsiVul7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c3Bp8F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVu17rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dsiVvF7rEeSaSYlLBoEnyA" name="x">
+        <modelElement href="consoleGravifour.uml#_c3Ab0V7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVvV7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dsiVvl7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c3BC4F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVv17rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dsiVwF7rEeSaSYlLBoEnyA" name="isWonHorizontal">
+      <modelElement href="consoleGravifour.uml#_c3EGMF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dsiVwV7rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dsiVwl7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c3FUUF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVw17rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dsiVxF7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c3EGMV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVxV7rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dsiVxl7rEeSaSYlLBoEnyA" name="isWonInRow">
+      <modelElement href="consoleGravifour.uml#_c3HJgF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dsiVx17rEeSaSYlLBoEnyA" label="-"/>
+      <outParameters xmi:id="_dsiVyF7rEeSaSYlLBoEnyA">
+        <modelElement href="consoleGravifour.uml#_c3IXoF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsiVyV7rEeSaSYlLBoEnyA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dsi8sF7rEeSaSYlLBoEnyA" name="y">
+        <modelElement href="consoleGravifour.uml#_c3HJgV7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsi8sV7rEeSaSYlLBoEnyA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dsi8sl7rEeSaSYlLBoEnyA" name="symbol">
+        <modelElement href="consoleGravifour.uml#_c3HwkF7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dsi8s17rEeSaSYlLBoEnyA" name="Symbol">
+          <modelElement href="consoleGravifour.uml#_csNhEF7rEeSaSYlLBoEnyA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dt3yYF7rEeSaSYlLBoEnyA" name="Main">
+    <modelElement href="consoleGravifour.uml#_cojJEF7rEeSaSYlLBoEnyA"/>
+    <visualProperties xmi:id="_dt3yYV7rEeSaSYlLBoEnyA" position="-548.0,-68.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dt3yYl7rEeSaSYlLBoEnyA" label="+"/>
+    <operations xmi:id="_dt3yY17rEeSaSYlLBoEnyA" name="main" staticOperation="true">
+      <modelElement href="consoleGravifour.uml#_copPsF7rEeSaSYlLBoEnyA"/>
+      <visibility xmi:id="_dt3yZF7rEeSaSYlLBoEnyA" label="+"/>
+      <parameters xmi:id="_dt3yZV7rEeSaSYlLBoEnyA" name="args">
+        <modelElement href="consoleGravifour.uml#_coqd0F7rEeSaSYlLBoEnyA"/>
+        <type xmi:id="_dt3yZl7rEeSaSYlLBoEnyA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -14,7 +14,7 @@ import java.util.Scanner;
  **/
 public class Game {
 	private static final int COLUMNS = 7;
-	private static final int ROWS = 5;
+	private static final int ROWS = 6;
 	private static final int TO_WIN = 4;
 
 	/* On the screen x increases to the right, y increases downwards, e.g.: 
@@ -57,14 +57,14 @@ public class Game {
 	}
 
 	private boolean isWonLeftDiagonal(Symbol symbol) {
-		int firstDiagonalStartX = TO_WIN - 1; 
-		int lastDiagonalStartY = ROWS - TO_WIN; 
+		for (int x = TO_WIN - 1; x < COLUMNS; x++) { 
+			if (isWonInLeftDiagonalAt(x, 0, symbol)) 
+				return true;
+		}
 		
-		for (int x = firstDiagonalStartX; x < COLUMNS; x++) { 
-			for (int y = 0; y <= lastDiagonalStartY; y++) {
-				if (isWonInLeftDiagonalAt(x, y, symbol)) 
-					return true;
-			}
+		for (int y = 1; y < ROWS - (TO_WIN - 1); y++) { 
+			if (isWonInLeftDiagonalAt(COLUMNS - 1, y, symbol)) 
+				return true;			
 		}
 		
 		return false;
@@ -88,16 +88,16 @@ public class Game {
 	}
 
 	private boolean isWonRightDiagonal(Symbol symbol) {
-		int lastDiagonalStartX = COLUMNS - TO_WIN; 
-		int lastDiagonalStartY = ROWS - TO_WIN; 
-		
-		for (int x = 0; x <= lastDiagonalStartX; x++) { 
-			for (int y = 0; y <= lastDiagonalStartY; y++) {
-				if (isWonInRightDiagonalAt(x, y, symbol)) 
-					return true;
-			}
+		for (int x = 0; x < COLUMNS - (TO_WIN - 1); x++) { 
+			if (isWonInRightDiagonalAt(x, 0, symbol)) 
+				return true;
 		}
 		
+		for (int y = 1; y < ROWS - (TO_WIN - 1); y++) { 
+			if (isWonInRightDiagonalAt(0, y, symbol)) 
+				return true;
+		}
+
 		return false;
 	}
 
@@ -171,11 +171,12 @@ public class Game {
 	}
 
 	private int getMove(int player) {
-		if (player == 0) { 
-			return inputHumanMove(playerSymbol[player]); 
-		} else { 
-			return computeComputerMove();
-		}
+		return inputHumanMove(playerSymbol[player]); 
+//		if (player == 0) { 
+//			return inputHumanMove(playerSymbol[player]); 
+//		} else { 
+//			return computeComputerMove();
+//		}
 	}
 
 	private int computeComputerMove() {

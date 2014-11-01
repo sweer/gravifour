@@ -6,22 +6,22 @@ import static oo.Symbol.*;
  * @author Aleksejs Truhans Aleksejs.Truhans@gmail.com
  */
 public class Game {
-	private final Player[] players = new Player[2];
-	private final Field field; 
+	private final Player[] players;
+	private Field field; 
 	private final int columns;
 	private final int rows;
 	private static final int TO_WIN = 4;
 	private static final Symbol[] PLAYER_SYMBOLS = { X, O };
 
 	
-	public Game(int columns, int rows, Player... players) {
+	public Game(int columns, int rows, Player player0, Player player1) {
 		this.field = new Field(columns, rows);
 		this.columns = columns;
 		this.rows = rows;
+		players = new Player[] { player0, player1 } ;
 		for (int i = 0; i < 2; i++) { 
-			this.players[i] = players[i];
-			this.players[i].setSymbol(PLAYER_SYMBOLS[i]);
-			this.players[i].setField(field.getView());
+			players[i].setSymbol(PLAYER_SYMBOLS[i]);
+			players[i].setField(field.getView());
 		}
 	}
 
@@ -56,15 +56,15 @@ public class Game {
 		return isWonRightDiagonal(symbol) || isWonLeftDiagonal(symbol);
 	}
 
-	private boolean isWonLeftDiagonal(Symbol symbol) {
-		int firstDiagonalStartX = TO_WIN - 1; 
-		int lastDiagonalStartY = rows - TO_WIN; 
+	boolean isWonLeftDiagonal(Symbol symbol) {
+		for (int x = TO_WIN - 1; x < columns; x++) { 
+			if (isWonInLeftDiagonalAt(x, 0, symbol)) 
+				return true;
+		}
 		
-		for (int x = firstDiagonalStartX; x < columns; x++) { 
-			for (int y = 0; y <= lastDiagonalStartY; y++) {
-				if (isWonInLeftDiagonalAt(x, y, symbol)) 
-					return true;
-			}
+		for (int y = 1; y < rows - (TO_WIN - 1); y++) { 
+			if (isWonInLeftDiagonalAt(columns - 1, y, symbol)) 
+				return true;			
 		}
 		
 		return false;
@@ -87,17 +87,17 @@ public class Game {
 		return false;
 	}
 
-	private boolean isWonRightDiagonal(Symbol symbol) {
-		int lastDiagonalStartX = columns - TO_WIN; 
-		int lastDiagonalStartY = rows - TO_WIN; 
-		
-		for (int x = 0; x <= lastDiagonalStartX; x++) { 
-			for (int y = 0; y <= lastDiagonalStartY; y++) {
-				if (isWonInRightDiagonalAt(x, y, symbol)) 
-					return true;
-			}
+	boolean isWonRightDiagonal(Symbol symbol) {
+		for (int x = 0; x < columns - (TO_WIN - 1); x++) { 
+			if (isWonInRightDiagonalAt(x, 0, symbol)) 
+				return true;
 		}
 		
+		for (int y = 1; y < rows - (TO_WIN - 1); y++) { 
+			if (isWonInRightDiagonalAt(0, y, symbol)) 
+				return true;
+		}
+
 		return false;
 	}
 
@@ -169,8 +169,8 @@ public class Game {
 		
 		return false;
 	}
-
-
 	
-	
+	void setField(Field field) { 
+		this.field = field;
+	}
 }
